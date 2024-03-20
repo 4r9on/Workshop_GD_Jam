@@ -4,21 +4,32 @@ using UnityEngine;
 
 public class Shoot : MonoBehaviour
 {
-    public  float power = 10f;
+    public float power = 10f;
     public float maxDrag = 5f;
     public Rigidbody2D rb;
-    public LineRenderer lr;
 
     Vector3 dragStartPos;
     Touch touch;
 
+    public bool tu = true;
+
+
     void Update()
     {
-        if(Input.touchCount > 0)
+        if (tu == true)
+        {
+            truc();
+        }
+    }
+
+
+    void truc()
+    {
+        if (Input.touchCount > 0)
         {
             touch = Input.GetTouch(0);
 
-            if(touch.phase == TouchPhase.Began )
+            if (touch.phase == TouchPhase.Began)
             {
                 DragStart();
             }
@@ -35,25 +46,25 @@ public class Shoot : MonoBehaviour
         }
     }
 
+
     void DragStart()
     {
         dragStartPos = Camera.main.ScreenToWorldPoint(touch.position);
         dragStartPos.z = 0f;
-        lr.SetPosition(0, dragStartPos);
+        Debug.Log("aaaa");
+
     }
 
     void Dragging()
     {
         Vector3 draggingPos = Camera.main.ScreenToWorldPoint(touch.position);
         draggingPos.z = 0f;
-        lr.positionCount = 2;
-        lr.SetPosition(1, draggingPos);
+        Debug.Log("zzzz");
+
     }
 
     void DragRelease()
     {
-        lr.positionCount = 0;
-
         Vector3 dragReleasePos = Camera.main.ScreenToWorldPoint(touch.position);
         dragReleasePos.z = 0f;
 
@@ -61,5 +72,10 @@ public class Shoot : MonoBehaviour
         Vector3 clampedForce = Vector3.ClampMagnitude(force, maxDrag) * power;
 
         rb.AddForce(clampedForce, ForceMode2D.Impulse);
+
+        Debug.Log("eeee");
+
+
+        tu = false;
     }
 }

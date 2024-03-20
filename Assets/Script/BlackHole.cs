@@ -9,11 +9,11 @@ public class BlackHole : MonoBehaviour
     [SerializeField]
     private float vel;
 
-    private void OnTriggerStay2D(Collider other)
+    private void OnTriggerStay2D(Collider2D collision)
     {
-        if (other.CompareTag("Cut"))
+        if (collision.CompareTag("Cut"))
         {
-            rbCut.velocity = new Vector3(0, vel); 
+            rbCut.velocity = new Vector3(0, vel);
         }
     }
 }
