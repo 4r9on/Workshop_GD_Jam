@@ -18,32 +18,32 @@ public class Shoot : MonoBehaviour
     {
         if (tu == true)
         {
-            if (Input.touchCount > 0)
-            {
-                touch = Input.GetTouch(0);
-
-                if (touch.phase == TouchPhase.Began)
-                {
-                    DragStart();
-                }
-
-                if (touch.phase == TouchPhase.Moved)
-                {
-                    Dragging();
-                }
-
-                if (touch.phase == TouchPhase.Ended)
-                {
-                    DragRelease();
-                }
-            }
+            truc();
         }
     }
 
 
     void truc()
     {
-        
+        if (Input.touchCount > 0)
+        {
+            touch = Input.GetTouch(0);
+
+            if (touch.phase == TouchPhase.Began)
+            {
+                DragStart();
+            }
+
+            if (touch.phase == TouchPhase.Moved)
+            {
+                Dragging();
+            }
+
+            if (touch.phase == TouchPhase.Ended)
+            {
+                DragRelease();
+            }
+        }
     }
 
 
@@ -65,6 +65,8 @@ public class Shoot : MonoBehaviour
 
     void DragRelease()
     {
+        rb.isKinematic = false;
+
         Vector3 dragReleasePos = Camera.main.ScreenToWorldPoint(touch.position);
         dragReleasePos.z = 0f;
 

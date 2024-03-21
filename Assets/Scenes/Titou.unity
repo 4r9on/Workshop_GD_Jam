@@ -935,7 +935,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!54 &673673369
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -2099,7 +2099,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b7184ea387959a34e95c8bb210e275df, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  litCutPrefab: {fileID: 390091596687011729, guid: 8d78796743ff99d4f80114ad2891882f,
+  litCutPrefab: {fileID: 8412310168459177214, guid: 9d3dd636660cb444b973e5837834febe,
     type: 3}
   divleft: {fileID: 1953740140}
   divright: {fileID: 116809307}

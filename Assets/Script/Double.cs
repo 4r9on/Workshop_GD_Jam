@@ -23,13 +23,16 @@ public class Double : MonoBehaviour
 
     void Div()
     {
-       /* GameObject litcut1 = Instantiate(litCutPrefab, divleft.position, divleft.rotation);
-        Rigidbody rb = litcut1.GetComponent<Rigidbody>();
-        rb.AddForce(divleft.forward*force, ForceMode.Impulse);
+        var bullet = Instantiate(litCutPrefab, divleft.position, divleft.rotation);
+        bullet.GetComponent<Rigidbody2D>().velocity = divleft.up * force;
+
+        /*GameObject litcut1 = Instantiate(litCutPrefab, divleft.position, divleft.rotation);
+        Rigidbody2D rb = litcut1.GetComponent<Rigidbody2D>();
+        rb.AddForce(divleft.forward*force, ForceMode2D.Impulse);
 
         GameObject litcut2 = Instantiate(litCutPrefab, divright.position, divright.rotation);
-        Rigidbody rb2 = litcut2.GetComponent<Rigidbody>();
-        rb2.AddForce(divright.forward * force, ForceMode.Impulse);*/
+        Rigidbody2D rb2 = litcut2.GetComponent<Rigidbody2D>();
+        rb2.AddForce(divright.forward * force, ForceMode2D.Impulse);*/
 
         Destroy(this.gameObject);
     }
