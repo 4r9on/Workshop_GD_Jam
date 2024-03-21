@@ -23,7 +23,7 @@ public class Double : MonoBehaviour
 
     void Div()
     {
-        /*GameObject litcut1 = Instantiate(litCutPrefab, divleft.position, divleft.rotation);
+       /* GameObject litcut1 = Instantiate(litCutPrefab, divleft.position, divleft.rotation);
         Rigidbody rb = litcut1.GetComponent<Rigidbody>();
         rb.AddForce(divleft.forward*force, ForceMode.Impulse);
 

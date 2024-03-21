@@ -18,32 +18,32 @@ public class Shoot : MonoBehaviour
     {
         if (tu == true)
         {
-            truc();
+            if (Input.touchCount > 0)
+            {
+                touch = Input.GetTouch(0);
+
+                if (touch.phase == TouchPhase.Began)
+                {
+                    DragStart();
+                }
+
+                if (touch.phase == TouchPhase.Moved)
+                {
+                    Dragging();
+                }
+
+                if (touch.phase == TouchPhase.Ended)
+                {
+                    DragRelease();
+                }
+            }
         }
     }
 
 
     void truc()
     {
-        if (Input.touchCount > 0)
-        {
-            touch = Input.GetTouch(0);
-
-            if (touch.phase == TouchPhase.Began)
-            {
-                DragStart();
-            }
-
-            if (touch.phase == TouchPhase.Moved)
-            {
-                Dragging();
-            }
-
-            if (touch.phase == TouchPhase.Ended)
-            {
-                DragRelease();
-            }
-        }
+        
     }
 
 
