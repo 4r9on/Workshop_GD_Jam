@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 1652f69ff5e374b4dbdfd54096ef4cd6
+guid: ec2cafa84c17c894f8367f9777ae6707
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -72,7 +72,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 2
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -110,76 +110,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: blackhole_0
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 256
-        width: 256
-        height: 256
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: bc48383847a47ec4a98ec7a79a9885f7
-      internalID: -919692280
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: blackhole_1
-      rect:
-        serializedVersion: 2
-        x: 256
-        y: 256
-        width: 256
-        height: 256
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 406432f9ed0e4674da666f41685a4716
-      internalID: -43505915
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: blackhole_2
-      rect:
-        serializedVersion: 2
-        x: 512
-        y: 256
-        width: 256
-        height: 256
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 3feb546fca464394d8dc133bdd3bbaf0
-      internalID: -485337769
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: blackhole_3
+      name: chiffre_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 256
-        height: 256
+        width: 429
+        height: 551
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -187,20 +124,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9b71f74459e2561458c2174fdfb5e9cb
-      internalID: 929242572
+      spriteID: 6c19790ba70453343b09380d213f6945
+      internalID: 1954205433
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: blackhole_4
+      name: chiffre_1
       rect:
         serializedVersion: 2
-        x: 256
+        x: 429
         y: 0
-        width: 256
-        height: 256
+        width: 429
+        height: 551
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -208,20 +145,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b1957fc66b1513446b14c9d5ff5dd4bc
-      internalID: 969377912
+      spriteID: 1e317a942ac8cb54eaad421e891d98a0
+      internalID: 1589256529
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: blackhole_5
+      name: chiffre_2
       rect:
         serializedVersion: 2
-        x: 512
+        x: 858
         y: 0
-        width: 256
-        height: 256
+        width: 429
+        height: 551
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -229,8 +166,155 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b3e8564bedb7fc8489afa18748197d15
-      internalID: -1484656971
+      spriteID: 827d4377abb86ec419837420cd7aeb4e
+      internalID: -1513633405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chiffre_3
+      rect:
+        serializedVersion: 2
+        x: 1287
+        y: 0
+        width: 429
+        height: 551
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5438a0acb1ad0ba4995fc95a042b4ebc
+      internalID: -392550001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chiffre_4
+      rect:
+        serializedVersion: 2
+        x: 1716
+        y: 0
+        width: 429
+        height: 551
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef7fc3fc72fca9d4e8663d4697be48ee
+      internalID: 1505526046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chiffre_5
+      rect:
+        serializedVersion: 2
+        x: 2145
+        y: 0
+        width: 429
+        height: 551
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 983eb6e3ae63442489d39b4692b9c29e
+      internalID: 1499000870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chiffre_6
+      rect:
+        serializedVersion: 2
+        x: 2574
+        y: 0
+        width: 429
+        height: 551
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb0cc61ff88c51b4dbed203ba71f7056
+      internalID: 642052435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chiffre_7
+      rect:
+        serializedVersion: 2
+        x: 3003
+        y: 0
+        width: 429
+        height: 551
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1e833c99f0d5e744ae1805c4523c56f
+      internalID: 424384730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chiffre_8
+      rect:
+        serializedVersion: 2
+        x: 3432
+        y: 0
+        width: 429
+        height: 551
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e392eb54495440746a46afb1bf73f44e
+      internalID: 303684935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chiffre_9
+      rect:
+        serializedVersion: 2
+        x: 3861
+        y: 0
+        width: 429
+        height: 551
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 793ef5b8a12257f41ba287a499cbbeed
+      internalID: 640041285
       vertices: []
       indices: 
       edges: []
@@ -238,7 +322,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: d802f4a1a659a4141bb4f7e5bd020809
+    spriteID: 5e97eb03825dee720800000000000000
     internalID: 0
     vertices: []
     indices: 
@@ -246,12 +330,16 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      blackhole_0: -919692280
-      blackhole_1: -43505915
-      blackhole_2: -485337769
-      blackhole_3: 929242572
-      blackhole_4: 969377912
-      blackhole_5: -1484656971
+      chiffre_0: 1954205433
+      chiffre_1: 1589256529
+      chiffre_2: -1513633405
+      chiffre_3: -392550001
+      chiffre_4: 1505526046
+      chiffre_5: 1499000870
+      chiffre_6: 642052435
+      chiffre_7: 424384730
+      chiffre_8: 303684935
+      chiffre_9: 640041285
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
